@@ -28,8 +28,13 @@ public class ProductoController {
                 .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
     }
 
-    @GetMapping("")
+    @GetMapping("/productos")  
     public List<Producto> listarProductos() {  
-        return PRODUCTOS;
-    }
+        return List.of(  
+                new Producto(1L, "Laptop", 1500.0),  
+                new Producto(2L, "Mouse", 25.0),  
+                new Producto(3L, "Laptop ASUS", 1200.00),  
+                new Producto(4L, "Smartphone Samsung", 800.00)  
+        );  
+    }  
 }
