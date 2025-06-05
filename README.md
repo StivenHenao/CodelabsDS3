@@ -80,4 +80,8 @@ Implementación de mensajería asíncrona utilizando RabbitMQ para la comunicaci
 - Port-forward: kubectl port-forward svc/auth-service 8081:8080
   
 
+ ## 📁 Github Actions
+Trabajo de Github Workflows para ejecución de github Actions por medio del repositorio del microservicio de cliente-service.
+Este falla ya que no tiene las variables definidas para la base de datos, pero la verificación del workflow sirve.
+----
 🚀 Cada carpeta contiene los archivos y configuraciones necesarias para completar los ejercicios.
