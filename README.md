@@ -1,4 +1,5 @@
 
+
 # 📂 Codelabs - Desarrollo de Software 3
 
   
@@ -81,7 +82,9 @@ Implementación de mensajería asíncrona utilizando RabbitMQ para la comunicaci
   
 
  ## 📁 Github Actions
-Trabajo de Github Workflows para ejecución de github Actions por medio del repositorio del microservicio de cliente-service.
-Este falla ya que no tiene las variables definidas para la base de datos, pero la verificación del workflow sirve.
+
+
+Trabajo de Github Workflows para ejecución de github Actions por medio del repositorio del microservicio de cliente-service. Este falla ya que no tiene las variables definidas para la base de datos, pero la verificación del workflow sirve.
+
 ----
 🚀 Cada carpeta contiene los archivos y configuraciones necesarias para completar los ejercicios.
