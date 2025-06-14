@@ -1,5 +1,3 @@
-
-
 # 📂 Codelabs - Desarrollo de Software 3
 
   
@@ -85,6 +83,15 @@ Implementación de mensajería asíncrona utilizando RabbitMQ para la comunicaci
 
 
 Trabajo de Github Workflows para ejecución de github Actions por medio del repositorio del microservicio de cliente-service. Este falla ya que no tiene las variables definidas para la base de datos, pero la verificación del workflow sirve.
+
+## 📁 Kubernetes GCP
+
+Codelab introductorio al despliegue de aplicaciones en Google Cloud Platform utilizando Kubernetes Engine:
+
+- Habilitación de APIs: Activación del servicio Kubernetes Engine en GCP.
+- Infraestructura: Creación de red virtual y subred para el clúster.
+- Creación y conexión al clúster: Uso de gcloud y kubectl para gestionar el clúster.
+- Despliegue del backend: Subida de contenedores y verificación del estado de las imágenes.
 
 ----
 🚀 Cada carpeta contiene los archivos y configuraciones necesarias para completar los ejercicios.
