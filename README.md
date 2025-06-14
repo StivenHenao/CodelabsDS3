@@ -93,5 +93,16 @@ Codelab introductorio al despliegue de aplicaciones en Google Cloud Platform uti
 - Creación y conexión al clúster: Uso de gcloud y kubectl para gestionar el clúster.
 - Despliegue del backend: Subida de contenedores y verificación del estado de las imágenes.
 
+## 📁 Pruebas de integración en Spring Boot
+
+Este codelab muestra cómo implementar y ejecutar pruebas de integración en una aplicación Spring Boot utilizando:
+
+- MockMvc: Para simular peticiones HTTP y verificar las respuestas del controlador sin levantar el servidor.
+- Spring Boot Test: Carga el contexto de la aplicación para pruebas completas.
+- JPA y H2 en memoria: Permite pruebas con persistencia sin depender de una base de datos externa.
+- Tests integrados: Se valida el correcto funcionamiento de endpoints como /hola/{nombre} y la consulta de entidades Pais desde la base de datos.
+
+🔍 Se aseguran escenarios reales de interacción entre capas (controlador, servicio y repositorio), validando respuestas HTTP y contenidos JSON.
+
 ----
 🚀 Cada carpeta contiene los archivos y configuraciones necesarias para completar los ejercicios.
