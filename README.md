@@ -40,7 +40,7 @@ Este codelab cubre el aprovisionamiento de una infraestructura utilizando divers
 
   
 
-## 📁 Comunicación entre microservicios
+## 📁 Comunicación entre microservicios Sincrónica Spring Boot
 
   
 
