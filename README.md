@@ -225,6 +225,11 @@ Este codelab implementa Clean Architecture dentro de un microservicio Spring Boo
 
 Este codelab demuestra cómo habilitar y probar el uso de **Virtual Threads** en una aplicación Spring Boot 3.5 con Java 21. Además, se incluye una prueba de carga con Apache JMeter para evaluar el rendimiento bajo concurrencia.
 
+## 📁 Kubernetes Nivel Básico
+
+Este codelab muestra los pasos esenciales para trabajar con Kubernetes en local usando **Minikube**. Se realiza el despliegue de una aplicación simple (`nginx`), su exposición mediante un servicio, escalado del deployment y finalmente limpieza de recursos.
+
+
 ----
 
 🚀 Cada carpeta contiene los archivos y configuraciones necesarias para completar los ejercicios.
