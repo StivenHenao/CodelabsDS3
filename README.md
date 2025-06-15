@@ -1,4 +1,5 @@
-# 👨‍💻 Codelabs - Desarrollo de Software 3
+
+# 📂 Codelabs - Desarrollo de Software 3
 
   
 
@@ -40,7 +41,7 @@ Este codelab cubre el aprovisionamiento de una infraestructura utilizando divers
 
   
 
-## 📁 Comunicación entre microservicios Sincrónica Spring Boot
+## 📁 Comunicación entre microservicios
 
   
 
@@ -197,7 +198,7 @@ Este codelab muestra cómo implementar y ejecutar pruebas de integración en una
 
 🔍 Se aseguran escenarios reales de interacción entre capas (controlador, servicio y repositorio), validando respuestas HTTP y contenidos JSON.
 
-  ### 📁 Proceso con enfoque ADD y Clean Architecture
+  ## 📁 Proceso con enfoque ADD y Clean Architecture
 
 Este codelab explora cómo diseñar e implementar una arquitectura basada en atributos de calidad mediante **Attribute-Driven Design (ADD)**, y cómo estructurarla con **Clean Architecture**.
 
@@ -219,6 +220,11 @@ Este codelab implementa Clean Architecture dentro de un microservicio Spring Boo
 -   `delivery/`: controladores REST.
     
     Se aplicaron principios SOLID y los beneficios clave incluyen independencia tecnológica, separación de responsabilidades y facilidad para añadir nuevas funcionalidades sin romper las existentes.
+
+## 📁 Virtual Threads en Spring Boot
+
+Este codelab demuestra cómo habilitar y probar el uso de **Virtual Threads** en una aplicación Spring Boot 3.5 con Java 21. Además, se incluye una prueba de carga con Apache JMeter para evaluar el rendimiento bajo concurrencia.
+
 ----
 
 🚀 Cada carpeta contiene los archivos y configuraciones necesarias para completar los ejercicios.
