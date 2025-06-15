@@ -206,6 +206,20 @@ Se identificaron atributos clave del sistema (rendimiento, seguridad, disponibil
 
 🔍 El proceso incluyó análisis, diseño, codificación y validación, destacando la importancia de alinear la arquitectura con los objetivos del negocio, la escalabilidad y el mantenimiento del sistema.
 
+
+## 📁 Clean Architecture en microservicios Spring Boot
+
+Este codelab implementa Clean Architecture dentro de un microservicio Spring Boot. Las capas están bien definidas y desacopladas, lo que facilita la escalabilidad, mantenimiento y pruebas. Se utilizó un ejemplo completo basado en una entidad `Producto`, con estructura en capas:
+
+-   `domain/`: contiene entidades y repositorios abstractos.
+    
+-   `application/usecase/`: contiene los casos de uso como `ListarProductosUseCase`.
+    
+-   `infrastructure/persistence/`: implementación de repositorios JPA.
+    
+-   `delivery/`: controladores REST.
+    
+    Se aplicaron principios SOLID y los beneficios clave incluyen independencia tecnológica, separación de responsabilidades y facilidad para añadir nuevas funcionalidades sin romper las existentes.
 ----
 
 🚀 Cada carpeta contiene los archivos y configuraciones necesarias para completar los ejercicios.
